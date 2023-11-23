@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>DCF_Calculater</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <label>현재 현금흐름을 입력해주세요</label>
+  <input id="CurrentCashFlow" required type="number" /><br>
+  <label>현재 현금흐름 성장률은?</label>
+  <input id="CashGrowth" required type="number" /><br>
+  <label>현재 할인율은 얼마인가요?</label>
+  <input id="DiscountRate" required type="number" /><br>
+  <label>영구 성장률은 얼마인가요?</label>
+  <input id="UlimateGrowth" required type="number" /><br>
+  <label>몇년까지 계산할까요?</label>
+  <input id="GrowthYear" required type="number" /><br>
+  <button id="Calculate">계산 시작</button>
+  <br>
+  <br>
+  <input id= "Result" readonly type="text"/>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
